@@ -1,0 +1,47 @@
+.lookwe {
+  height: 90px;
+  position: relative;
+  top: 10px;
+  font: bold italic 50px courier;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  box-shadow: 1px 7px 8px blue;
+}
+fieldset{
+  direction:rtl;
+  display:grid;
+  grid-template-columns: auto auto;
+}
+fieldset div{
+  margin:auto ;
+  margin-top:2px;
+}
+fieldset a{
+  text-align:center;
+  font:bold italic 30px cursor;
+  position:relative ;
+  top:20px;
+}
+.myconnect{
+  margin:5px ;
+  position:relative;
+  text-align:center ;
+  font:italic bold 20px cursor;
+  color:black;
+  
+}
+.alternative {
+          direction: rtl;
+          display: grid;
+          background: radial-gradient(#111, #778);
+          grid-template-columns: 33% 33% 34%;
+          padding: 20px;
+        }
+@media (min-width:600px){
+  
+  fieldset{
+
+  grid-template-columns:auto auto auto auto auto auto;
+}
+}
